@@ -24,7 +24,7 @@ spec:
             backend:
               serviceName: comments-srv
               servicePort: 4001
-          - path: /?(.*)
-            backend:
-              serviceName: client-srv
-              servicePort: 3000
+          # - path: /?(.*)
+          #   backend:
+          #     serviceName: client-srv
+          #     servicePort: 3000
